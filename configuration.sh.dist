@@ -1,0 +1,12 @@
+#!/bin/bash
+
+########################################################################################################################
+############################################### SCRIPT CONFIGURATION ###################################################
+########################################################################################################################
+
+folder=workdir # Folder to clone the SVN repository into
+gitRepository='http://gitlab.com/pierrelejeune/project.git' # Target Git Repository address
+svnRepository='http://svn.com/pierrelejeune/project' # Source SVN Repository
+
+branches=('BRANCH 1' 'BRANCH 2') # Branche's names to migrate
+tags=('TAG 1' 'TAG 2') # Tag's names to migrate
